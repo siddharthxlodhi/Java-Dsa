@@ -555,7 +555,7 @@ public class Medium {
 
 
     public static void main(String[] args) {
-        int[] arr = {3,2,3};
+        int[] arr = {3, 2, 3};
         System.out.println(majorityElementOptimal(arr));
     }
 }
