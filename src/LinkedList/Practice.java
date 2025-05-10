@@ -13,11 +13,11 @@ public class Practice {
         list.addLast(6);
         list.addLast(7);
         list.addLast(8);
-        MySinglyLL.Node<Integer> node = LL.reverseKGroup(list.first,3);
-        while (node != null) {
-            System.out.println(node.value);
-            node = node.next;
-        }
+//        MySinglyLL.Node<Integer> node = LL.reverseKGroup(list.first,3);
+//        while (node != null) {
+//            System.out.println(node.value);
+//            node = node.next;
+//        }
 
     }
 }

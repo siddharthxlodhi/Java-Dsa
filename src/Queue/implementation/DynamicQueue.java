@@ -1,4 +1,4 @@
-package Queue;
+package Queue.implementation;
 
 
 // It is a dynamic circular queue which increases its size when get full

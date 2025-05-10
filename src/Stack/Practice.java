@@ -1,7 +1,7 @@
 package Stack;
 
-import Queue.CircularQueue;
-import Queue.DynamicQueue;
+import Queue.implementation.CircularQueue;
+import Queue.implementation.DynamicQueue;
 
 public class Practice {
 

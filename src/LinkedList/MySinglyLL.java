@@ -3,9 +3,9 @@ package LinkedList;
 //Generic My singly linked list class
 public class MySinglyLL<E> {
 
-     Node<E> first;
-     Node<E> last;
-     int size;
+     Node<E> first;   //they are private
+      Node<E> last;
+      int size;
 
     public MySinglyLL() {
         this.size = 0;                   //Initially the size of the LL will be zero
@@ -13,8 +13,8 @@ public class MySinglyLL<E> {
 
     public static class Node<E> {
         Node<E>  random;
-        E value;
-         Node<E> next;
+       public    E value;
+       public     Node<E> next;
 
         public Node(E e) {
             this.value = e;
